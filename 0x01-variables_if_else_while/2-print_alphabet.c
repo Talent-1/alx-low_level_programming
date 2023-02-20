@@ -4,8 +4,7 @@
  * main - Entry point
  * Return: Always 0 (Succes)
  */
-
-int main (void)
+int main(void)
 {
 	char alp;
 	for (alp = 'a'; alp <= 'z'; alp++)
@@ -13,5 +12,5 @@ int main (void)
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
