@@ -2,7 +2,7 @@
 
 /**
  * main - prints alphabet in lower case and a new line
- * Return: always 0
+ * Return: always 1
 */
 int main(void)
 {
@@ -13,5 +13,5 @@ int main(void)
 
 	_putchar('\n');
 
-	return (0);
+	return (1);
 }
