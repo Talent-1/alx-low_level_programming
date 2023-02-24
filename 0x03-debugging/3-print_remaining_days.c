@@ -27,8 +27,8 @@ void print_remaining_days(int month, int day, int year)
 		}
 		else
 		{
-			printf("day of the year: %d\n", day);
-			printf("remaining days: %d\n", 365 - 0, day);
+			printf("Day of the year: %d\n", day);
+			printf("Remaining days: %d\n", 365 - day);
 		}
 	}
 }
