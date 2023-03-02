@@ -1,23 +1,24 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_array - prints n elements of an array of integers
- * followed by a new line
- * @a: array name
- * @n: num of the elements of the arrayto be printed
- * Return: a and n inputs
- */
+ * print_array - This fxn prints n elements of an array of integers.
+ *
+ * @n: elements parameter input
+ * @a: string parameter input
+ *
+ * Return: Nothing
+*/
+
 void print_array(int *a, int n)
 {
-	int k;
+	int i;
 
-	for (k = 0; k < (n - 1); k++)
+	for (i = 0; i < n; ++i)
 	{
-		printf("%d,", a[k]);
-	}
-	if (k == (n - 1))
-	{
-		printf("%d", *a(n - 1));
+		if (i != (n - 1))
+			printf("%d, ", a[i]);
+		else
+			printf("%d", a[i]);
 	}
 	printf("\n");
 }
